@@ -1,0 +1,238 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 0px !important;
+    margin: 0px !important;
+    font-family: 'Sen', sans-serif;
+    background-color: rgb(219, 218, 146);
+}
+
+/*Header*/
+
+.head{
+    margin-top: 15px;
+    padding-left: 30px;
+    font-weight: 700;
+    font-size: 45px;
+    float: left;
+}
+
+#header-container{
+    width: 100%;
+    padding-bottom: 15px;
+    background-color: #0ea50e;
+    color: white;
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+#header-container a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Navbar*/
+
+nav > ol{
+    position: relative;
+    left: 28%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 35px;
+    line-height: 280%;
+    display: inline-block;
+    text-align: center;
+}
+
+nav > ol a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+nav > ol > li{
+    float: left;
+    width: 250px;
+    height: 83.5px;
+}
+
+nav > ol > li:hover{
+    background-color: #2bc00d;
+}
+
+
+nav > ol > li > ul{
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    display: none;
+}
+
+nav > ol > li > ul > li{
+    font-size: 30px;
+    line-height: 100%;
+    padding: 5% 0;
+    background-color: #0ea50e;
+    position: relative;
+    border-top: 1px solid #ffffff;
+    width: 250px;
+}
+
+nav > ol > li > ul > li:hover{
+    background-color: #2bc00d;
+}
+
+nav > ol > li:hover > ul{
+    display: block;
+}
+
+article{
+    position: relative;
+    text-align: center;
+    height: 100%;
+    top: 10%;
+    left: 15%;
+    width: 70%;
+    color: rgb(90, 42, 42);
+}
+
+h1{
+    margin-top: 150px;
+}
+
+h1, h2, h3{
+    text-align: center;
+    font-size: 80px;
+}
+
+/*Table*/
+
+table{
+    text-align: center;
+    border-radius: 10px;
+    border-collapse: separate;
+    background-color: rgb(253, 252, 181);
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px
+}
+table th:first-child {
+    border-top-left-radius: 10px;
+  }
+  
+  table th:last-child {
+    border-top-right-radius: 10px;
+  }
+  
+  table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+  }
+  
+  table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+  }
+
+tr:nth-of-type(even){
+    background-color: rgb(252, 255, 204);
+}
+
+tr:first-child{
+    font-size: 25px;
+}
+
+tr > td:first-of-type{
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+table:nth-of-type(1){
+    margin-bottom: 100px;
+}
+
+table:nth-of-type(2){
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+table:nth-of-type(3){
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+tr > td:last-of-type{
+    width: 500px;
+}
+
+tr > td:nth-of-type(1){
+    width: 100px;
+}
+
+tr > td:nth-of-type(2){
+    width: 350px;
+}
+
+tr > td:nth-of-type(3){
+    width: 250px;
+}
+
+.warzywo{
+    color: rgb(201, 56, 56);
+}
+
+.vege{
+    color: green;
+}
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+    box-sizing: border-box;
+    padding: 30px;
+    padding-left: 20px;
+    background-color: rgb(16, 34, 16);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copy{
+    margin: 0;
+    padding: 0;
+}
+
+footer p{
+    display: inline;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-right: white solid 1px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.copy p:last-of-type{
+    border-right: none;
+}
+
+#foot{
+    display: inline;
+    font-size: 35px;
+    text-align: right;
+}
